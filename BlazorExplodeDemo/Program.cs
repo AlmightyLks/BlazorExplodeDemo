@@ -1,5 +1,4 @@
-using BlazorExplodeDemo;
-using BlazorExplodeDemo.Data;
+using BlazorExplodeDemo.Services;
 
 internal class Program
 {
@@ -11,7 +10,6 @@ internal class Program
         builder.Services.AddScoped<DownloadService>();
         builder.Services.AddRazorPages();
         builder.Services.AddServerSideBlazor();
-        builder.Services.AddSingleton<WeatherForecastService>();
 
         var app = builder.Build();
 

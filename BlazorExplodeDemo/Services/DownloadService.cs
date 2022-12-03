@@ -1,7 +1,4 @@
-﻿using YoutubeExplode;
-using YoutubeExplode.Videos.Streams;
-
-namespace BlazorExplodeDemo;
+﻿namespace BlazorExplodeDemo.Services;
 
 public class DownloadService
 {
