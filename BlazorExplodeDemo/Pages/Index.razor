@@ -1,0 +1,10 @@
+﻿@page "/"
+@using System.IO
+@inject IJSRuntime JS
+
+<PageTitle>Index</PageTitle>
+
+<center><h1>YouTube Explode</h1></center>
+
+<input type="texr" @bind="videoUrl">
+<input type="submit" @onclick="DownloadFileFromStream">
